@@ -1,0 +1,23 @@
+{
+  "name": "with_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -L -e js, html",
+    "build": "pkg src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "pkg": "^4.4.9"
+  }
+}
